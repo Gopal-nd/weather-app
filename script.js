@@ -3,7 +3,7 @@
     let input = document.querySelector('#city')
     let submit = document.querySelector('#submit')
 
-    const API = process.env.API_KEY; // please don't miss use this key
+    const API = process.env.API_KEY||'2a7fd29bded014af441ef6253c79fe2c'; // please don't miss use this key
     const w = document.querySelector('.weather'); 
     let latitude, longitude;
     let weather;
