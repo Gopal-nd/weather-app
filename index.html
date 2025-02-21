@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class=" flex flex-col items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full text-center">
+        <h1 class="text-2xl font-bold mb-4">Weather App</h1>
+        <form id="formInput" class="flex flex-col gap-3">
+            <input type="text" id="city" placeholder="Enter the City Name ..." required 
+                class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="submit" title="search" id="submit" 
+                class="w-full bg-blue-500 text-white py-2 rounded-md cursor-pointer hover:bg-blue-600">
+        </form>
+        <div class="weather mt-4 text-gray-700"></div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
