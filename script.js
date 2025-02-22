@@ -42,7 +42,7 @@
    }
     function RenderData(){
         if(!weather) return
-        w.innerHTML = ` <div class=" text-white p-4 mt-4 rounded-lg shadow-md">
+        w.innerHTML = ` <div class=" text-white bg-black p-4 mt-4 rounded-lg shadow-md">
                     <h2 class="text-xl font-bold">Weather in ${weather.name}</h2>
                     <p><strong>Temperature:</strong> ${weather.main.temp}°C</p>
                     <p><strong>Feels Like:</strong> ${weather.main.feels_like}°C</p>
